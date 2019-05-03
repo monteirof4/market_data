@@ -1,0 +1,4 @@
+symbol,previous_close,avg_volume,market_cap,beta,pe_ratio,price_estimate,latest_news_link,latest_news_head,sector,industry,employees
+ABCE,0.014,2167440.0,879344.0,2.2,N/A,N/A,https://finance.yahoo.com/news/abco-energy-announces-sale-solar-155000177.html,ABCO Energy Announces Sale Of Solar Power System For Episcopal Church,Technology,Solar,25
+ABEPF,0.0659,7574.0,5475000.0,0.67,N/A,N/A,https://finance.yahoo.com/news/vision-lithium-reports-1-85-110000030.html,Vision Lithium reports 1.85% Li2o over 13.50 metres from channel sampling at the Sirmac Lithium Property,Basic Materials,Industrial Metals & Minerals,N/A
+ABMT,0.121,275.0,8425000.0,3.85,N/A,N/A,N/A,N/A,Healthcare,Medical Devices,15
