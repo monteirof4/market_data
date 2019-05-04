@@ -8,8 +8,8 @@ This data is going to be stored in a noSQL database (mongoDB) to allow for quick
 ![Database_Diagram](img/OTC_market_db_diagram.png)
 
 ## Data Sources:
-OTCmarkets.com
-Yahoo Finance
+- OTCmarkets.com
+- Yahoo Finance
 
 ## Extraction
 - Data will be scraped from OTC ticker listing page 
@@ -43,7 +43,7 @@ Yahoo Finance
 - Within the Yahoo Finance web scraping file, we had to transform numerous datapoints to allow us to extract and store this data in a standardized format that will allow this data to be utilized in any way analysts desire
     - For example:
         - Converting Strings into Floats
-        - Creating a new value for Market Cap as it was displayed as 151M, to denote 151000000, so removing commas, removing letters, and applying scaling
+        - Creating a new value for Market Cap as it was displayed as 151M, to denote 151000000, so removing commas, removing letters,           and applying scaling
         - Dealing with Null values, requiring numerous try/except loops throughout so that the scraper will not be interrupted 
 
 
