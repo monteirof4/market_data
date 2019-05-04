@@ -8,8 +8,8 @@ This data is going to be stored in a noSQL database (mongoDB) to allow for quick
 ![Database_Diagram](img/OTC_market_db_diagram.png)
 
 ## Data Sources:
-- OTCmarkets.com
-- Yahoo Finance
+OTCmarkets.com
+Yahoo Finance
 
 ## Extraction
 - Data will be scraped from OTC ticker listing page 
@@ -54,13 +54,13 @@ This data is going to be stored in a noSQL database (mongoDB) to allow for quick
 
 
 ### Instructions to Run ETL Processes
-1-Install Selenium (Reference Selenium_Installation.md in the Repo for instructions on this)
-2-Start MongoDB database (mongod)
-3-Open Terminal
-    a-source activate PythonData
-    b-Open jupyter notebook
-4-Run notebooks in the order below
-    a-OTC_market_scraper.ipynb
-    b-OTC_market_csv_import.ipynb
-    c-OTC_market_yahoo_scraper.ipynb
-        - In this final Notebook on line 2 in the "Scrape Yahoo Page" block of code you can adjust how many companies you want the code to scrape, just the variable 'number_of_companies_to_run' needs to be adjusted
+1. Install Selenium (Reference Selenium_Installation.md in the Repo for instructions on this)
+2. Start MongoDB database (mongod)
+3. Open Terminal
+    1. source activate PythonData
+    2. Open jupyter notebook
+4. Run notebooks in the order below
+    1. OTC_market_scraper.ipynb
+    2. OTC_market_csv_import.ipynb
+    3. OTC_market_yahoo_scraper.ipynb
+        - In this final Notebook on line 2 in the "Scrape Yahoo Page" block of code you can adjust how many companies you want the code         to scrape, just the variable 'number_of_companies_to_run' needs to be adjusted
